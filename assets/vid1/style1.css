@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main>h1{
+    display: flex;
+    background-color: #9C9C9C;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+main>h2{
+    position: relative;
+    left: 10px;
+    margin: 10px 0;
+
+}
+
+main>h2>a{
+    text-decoration: none;
+    color: red;
+
+}
+
+main>p{
+    margin: 0 10px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+main>ul>li{
+    margin: 15px;
+    list-style-type: decimal-leading-zero;
+
+}
+
